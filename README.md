@@ -1,3 +1,5 @@
+# The code will be upload soon
+
 # RCC
 Data augmentation for cross-subject SSVEP classification
 
