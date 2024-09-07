@@ -1,7 +1,7 @@
 # RCC
 Data augmentation for cross-subject SSVEP classification
 
-## The core code of RCC is in data_generator.py
+## The core code of RCC is in data_generator_source_RCC.py
 
 ## The related version information
 1. Python == 3.7.0
