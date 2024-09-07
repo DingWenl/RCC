@@ -1,5 +1,5 @@
 from keras.callbacks import ModelCheckpoint
-from net_trans import fbtcnn_net
+from net_cnnformer import cnnformer
 from data_generator_source_cov import train_datagenerator#, val_datagenerator
 import scipy.io as scio 
 from scipy import signal
@@ -119,7 +119,7 @@ if __name__ == '__main__':
             #%% setting the network (CNN-Former)
             input_shape = (channel, win_train, 3)
             input_tensor = Input(shape=input_shape)
-            preds = fbtcnn_net(input_tensor)
+            preds = cnnformer(input_tensor)
             model = Model(input_tensor, preds)
             # the path of the saved model and you need to change it
             model_path = '/data/dwl/ssvep/model/benchmark_RCC/cnnformer_RCC/pre_%3.1fs_02_%d.h5'%(t_train,group_n)
