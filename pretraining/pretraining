@@ -119,6 +119,7 @@ if __name__ == '__main__':
             #%% setting the network (CNN-Former)
             input_shape = (channel, win_train, 3)
             input_tensor = Input(shape=input_shape)
+            # using the CNN-Former model
             preds = cnnformer(input_tensor)
             model = Model(input_tensor, preds)
             # the path of the saved model and you need to change it
