@@ -1,6 +1,6 @@
 from keras.callbacks import ModelCheckpoint
 from net_cnnformer import cnnformer
-from data_generator_source_cov import train_datagenerator#, val_datagenerator
+from data_generator_source_RCC import train_datagenerator#, val_datagenerator
 import scipy.io as scio 
 from scipy import signal
 from keras.models import Model,load_model
