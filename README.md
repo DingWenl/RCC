@@ -6,11 +6,11 @@ Data augmentation for cross-subject SSVEP classification
 # The core code for RCC can be found in the `data_generator_source_RCC.py` file within the pretraining directory.
 
 ## The related version information
-1. Python == 3.7.0
-2. Keras-gpu == 2.3.1
-3. tensorflow-gpu == 2.1.0
-4. scipy == 1.5.2
-5. numpy == 1.19.2
+1. Python == 3.9.13
+2. Keras-gpu == 2.6.0
+3. tensorflow-gpu == 2.6.0
+4. scipy == 1.9.3
+5. numpy == 1.19.3
 
 ## Training CNN-Former model with RCC for the benchmark dataset
 1. Download the code.
