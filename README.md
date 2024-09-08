@@ -19,7 +19,9 @@ Data augmentation for cross-subject SSVEP classification
 4. Change the data and model folder paths in train and test files to your data and model folder paths.
 
 ## Subject-independent test in the pretraining directory 
-1. Run the '' file to get the pre-trained model
-
-
-## Subject-adaptive test
+1. Run the `pretraining.py` file to get the pre-trained model;
+2. Run the `test_independent.py` file to conduct subject-independent test.
+   
+## Subject-adaptive test in the finetuning directory
+1. Run the `finetuning.py` file to finetune the pre-trained model;
+2. Run the `test_adaptive.py` file to conduct subject-adaptive test.
