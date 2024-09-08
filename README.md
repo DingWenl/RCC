@@ -1,7 +1,7 @@
 # RCC
-Data augmentation for cross-subject SSVEP classification
+Data augmentation for cross-subject SSVEP classification;
 
-# The core code for RCC can be found in the `data_generator_source_RCC.py` file within the pretraining directory.
+The core code for RCC can be found in the `data_generator_source_RCC.py` file within the pretraining directory.
 
 ## The related version information
 1. Python == 3.9.13
