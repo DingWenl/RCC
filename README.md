@@ -1,5 +1,5 @@
 # RCC
-1. Here are the codes of the CNN-Former with EEG-ME in the paper ["Enhancing Domain Diversity of Transfer Learning-Based SSVEP-BCIs by the Reconstruction of Channel Correlation“](https://ieeexplore.ieee.org/document/10675430).
+1. Here are the codes of the CNN-Former with RCC in the paper ["Enhancing Domain Diversity of Transfer Learning-Based SSVEP-BCIs by the Reconstruction of Channel Correlation“](https://ieeexplore.ieee.org/document/10675430).
 2. The core code for RCC can be found in the `data_generator_source_RCC.py` file within the pretraining directory.
 
 ## The related version information
