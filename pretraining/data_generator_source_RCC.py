@@ -21,6 +21,7 @@ def train_datagenerator(batchsize,train_data1,train_data2,train_data3,win_train,
         if RCC_index == 0:
             # get training samples of batchsize trials
             for i in range(int(batchsize)):
+                #save mix ratio drawn from beta distribution
                 index_list[i] = np.random.beta(alpha,alpha)
 
                 m = sample(target_list, 1)[0]
